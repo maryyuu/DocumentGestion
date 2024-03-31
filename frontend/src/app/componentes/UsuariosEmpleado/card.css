@@ -1,0 +1,40 @@
+.ContenedorCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid black;
+    transition: ease-in-out 0.3s;
+    gap: 15px;
+   background-color: white;
+
+}
+.ContenedorCard:hover{
+    box-shadow: 0px 0px 15px black;
+}
+.imagenCard{
+    border-radius: 10px;
+}
+.nombreTelefono{
+    text-align: center;
+    font-size: larger;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Detalle{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+/* .imagen{
+    width: 50px;
+    background-color: #74d223;
+    border-radius: 100px;
+    padding: 5px;
+} */
+.imagen:hover{
+    color: rgb(0, 21, 255);
+    cursor: pointer;
+}

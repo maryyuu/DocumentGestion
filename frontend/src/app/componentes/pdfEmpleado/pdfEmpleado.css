@@ -1,0 +1,74 @@
+.contenedorBorroso{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    flex-wrap: wrap;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(101, 99, 99, 0.274);
+}
+.ContenedorPdf{
+    width: 45%;
+    height: 45%;
+    position: fixed;
+    border: 1px solid black;
+    background-color: rgb(86, 130, 171) ;
+    color: black;
+    border-radius: 10px;
+    
+}
+.Ubicacionpdf{
+    width: 100%;
+    padding: 8px;
+   display: grid;
+   grid-template-columns: 22% 22% 22% 22%;
+   justify-content: center;
+   align-items: center;
+   justify-content: center;
+    max-height: 257px; 
+    overflow-y: auto; 
+    gap: 15px;
+    
+}
+.cerrarPdf{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(255, 4, 4); 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.nombrePdf{
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+.cardPdf{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    transition: ease-in-out 0.2s;
+}
+.cardPdf:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.titulo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+   text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: large;
+}

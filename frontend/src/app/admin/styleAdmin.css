@@ -1,0 +1,49 @@
+.PrincipalAdmin{
+    width: 100%;
+    
+
+}
+.Titulo{
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.textBienvenida{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+   
+}
+.ContenedorCardseEmpleado{
+    padding: 30px;
+    border-radius: 10px;
+   margin: 50px;
+   top: 0;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    gap: 30px;
+    justify-content: center;
+    background-color:rgb(86, 130, 171) ;
+}
+.CardsSecretaria{
+    padding: 30px;
+    border-radius: 10px;
+   margin: 50px;
+   top: 0;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    gap: 30px;
+    justify-content: center;
+    background-color:rgb(149, 214, 241) ;
+}
+.salir{
+    display: flex;
+    justify-content: end;
+    margin-inline-end: 90px;
+    margin-top: 0px;
+}
+.imgSalir:hover{
+    color:blue;
+}

@@ -1,0 +1,23 @@
+.contenedorProblem{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+    position: relative;
+    background-color: rgb(210, 252, 252);
+    border-radius: 10px;
+    
+}
+.CerrarPestaña{
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 6%;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(255, 4, 4); 
+  color: white;
+  border: none;
+  cursor: pointer;
+}

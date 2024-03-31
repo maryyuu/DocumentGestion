@@ -1,0 +1,56 @@
+.MisionVision{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.ContenedorViMi{
+     background-color: rgba(115, 159, 221, 0.61);
+      border-radius: 15px;
+    border: 1px solid black;
+     width: 100%;
+}
+.contenedorEdit{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.direccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.textMF{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+}
+.textMisVis{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
+
+.BotonEditar{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 15%;
+    height: 35px;
+    margin-top: 15px;
+    background-color: rgb(124, 214, 124);
+}
+.BotonEditar:hover{
+    background-color: rgb(49, 162, 49);
+    color: white;
+}
